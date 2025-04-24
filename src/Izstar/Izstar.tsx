@@ -72,7 +72,7 @@ export const Izstar = ({
       >
         {star.name}
       </span>
-      <i className={classNames("iztro-star-brightness")}>{star.brightness}</i>
+      {/* <i className={classNames("iztro-star-brightness")}>{star.brightness}</i>
       {star.mutagen && (
         <span
           className={classNames(
@@ -97,7 +97,7 @@ export const Izstar = ({
             </span>
           );
         }
-      })}
+      })} */}
     </div>
   );
 };

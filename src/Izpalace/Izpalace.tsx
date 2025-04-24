@@ -159,7 +159,7 @@ export const Izpalace = ({
           />
         ))}
       </div>
-      <div className={classNames("iztro-palace-minor")}>
+      {/* <div className={classNames("iztro-palace-minor")}>
         {palace.minorStars.map((star) => (
           <Izstar
             key={star.name}
@@ -173,8 +173,8 @@ export const Izpalace = ({
             {...star}
           />
         ))}
-      </div>
-      <div className={classNames("iztro-palace-adj")}>
+      </div> */}
+      {/* <div className={classNames("iztro-palace-adj")}>
         <div>
           {palace.adjectiveStars.slice(5).map((star) => (
             <Izstar key={star.name} {...star} />
@@ -185,8 +185,8 @@ export const Izpalace = ({
             <Izstar key={star.name} {...star} />
           ))}
         </div>
-      </div>
-      <div className={classNames("iztro-palace-horo-star")}>
+      </div> */}
+      {/* <div className={classNames("iztro-palace-horo-star")}>
         <div className={classNames("stars")}>
           {horoscope?.decadal?.stars &&
             horoscope?.decadal?.stars[index].map((star) => (
@@ -199,8 +199,8 @@ export const Izpalace = ({
               <Izstar key={star.name} {...star} />
             ))}
         </div>
-      </div>
-      <div className={classNames("iztro-palace-fate")}>
+      </div> */}
+      {/* <div className={classNames("iztro-palace-fate")}>
         {horoscopeNames?.map((item) => (
           <span
             key={item.name}
@@ -215,16 +215,16 @@ export const Izpalace = ({
             {item.heavenlyStem && `·${item.heavenlyStem}`}
           </span>
         ))}
-      </div>
+      </div> */}
       <div className={classNames("iztro-palace-footer")}>
         <div>
-          <div className={classNames("iztro-palace-lft24")}>
+          {/* <div className={classNames("iztro-palace-lft24")}>
             <div>{palace.changsheng12}</div>
             <div>{palace.boshi12}</div>
-          </div>
+          </div> */}
           <div
             className={classNames("iztro-palace-name")}
-            onClick={() => toggleTaichiPoint?.(index)}
+          // onClick={() => toggleTaichiPoint?.(index)}
           >
             <span className="iztro-palace-name-wrapper">
               {palace.name}
@@ -244,9 +244,9 @@ export const Izpalace = ({
         </div>
         <div>
           <div className={classNames("iztro-palace-scope")}>
-            <div className={classNames("iztro-palace-scope-age")}>
+            {/* <div className={classNames("iztro-palace-scope-age")}>
               {palace.ages.slice(0, 7).join(" ")}
-            </div>
+            </div> */}
             <div className={classNames("iztro-palace-scope-decadal")}>
               {palace.decadal.range.join(" - ")}
             </div>
@@ -280,7 +280,7 @@ export const Izpalace = ({
           </div>
         </div>
         <div>
-          <div className={classNames("iztro-palace-rgt24")}>
+          {/* <div className={classNames("iztro-palace-rgt24")}>
             <div>
               {showYearlyScope
                 ? horoscope?.yearly.yearlyDecStar.suiqian12[index]
@@ -291,7 +291,7 @@ export const Izpalace = ({
                 ? horoscope?.yearly.yearlyDecStar.jiangqian12[index]
                 : palace.jiangqian12}
             </div>
-          </div>
+          </div> */}
 
           <div
             className={classNames("iztro-palace-gz", {
