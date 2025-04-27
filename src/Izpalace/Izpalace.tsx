@@ -140,7 +140,7 @@ export const Izpalace = ({
           (index === fixIndex(focusedIndex + 4) ||
             index === fixIndex(focusedIndex - 4)),
       })}
-      style={{ gridArea: `g${index}` }}
+      style={{ gridArea: `g${index}`, height: 150 }}
       onMouseEnter={() => onFocused?.(index)}
       onMouseLeave={() => onFocused?.(undefined)}
     >
