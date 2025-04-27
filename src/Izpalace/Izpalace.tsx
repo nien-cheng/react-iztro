@@ -159,7 +159,7 @@ export const Izpalace = ({
           />
         ))}
       </div>
-      {/* <div className={classNames("iztro-palace-minor")}>
+      <div className={classNames("iztro-palace-minor")}>
         {palace.minorStars.map((star) => (
           <Izstar
             key={star.name}
@@ -173,7 +173,7 @@ export const Izpalace = ({
             {...star}
           />
         ))}
-      </div> */}
+      </div>
       {/* <div className={classNames("iztro-palace-adj")}>
         <div>
           {palace.adjectiveStars.slice(5).map((star) => (
