@@ -220,7 +220,7 @@ export const IzpalaceCenter = ({
           <Item key={idx} {...rec} />
         ))}
       </ul>
-      {/* <h3 className="center-title">运限信息</h3>
+      <h3 className="center-title">运限信息</h3>
       <ul className="basic-info">
         <Item title="农历：" content={horoDate.lunar} />
         <div
@@ -311,7 +311,7 @@ export const IzpalaceCenter = ({
         >
           限▶
         </span>
-      </div> */}
+      </div>
       {/* <a
         className="iztro-copyright"
         href="https://github.com/sylarlong/iztro"
